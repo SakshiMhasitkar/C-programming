@@ -12,7 +12,7 @@ int main()
     printf("Enter your maths marks\n");
     scanf("%d", &mathmarks);
 
-    int totalmarks= (phymarks + chemmarks + mathmarks)/3;
+    float totalmarks= (phymarks + chemmarks + mathmarks)/3;
 
     if(totalmarks>=40 && phymarks>=30 && chemmarks>=30 && mathmarks>=30)
     {
